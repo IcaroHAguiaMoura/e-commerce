@@ -18,4 +18,12 @@ precisar alterar a classe principal(**Pedido**).
 
 ![image](https://github.com/user-attachments/assets/386d9754-aa19-4ede-99c0-2b80c626e500)
 
+### State
+Utilizado para controlar estado do pedido(Aguardando pagamento,pago,enviado,cancelado).
+
+Utilizamos ele porque um pedido muda de comportamento conforme seu estado.
+Evitando mutios if-else ou switch no codigo.
+
+
+
 
