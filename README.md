@@ -24,6 +24,19 @@ Utilizado para controlar estado do pedido(Aguardando pagamento,pago,enviado,canc
 Utilizamos ele porque um pedido muda de comportamento conforme seu estado.
 Evitando mutios if-else ou switch no codigo.
 
+![image](https://github.com/user-attachments/assets/345cb92c-1859-4658-b1bc-a5d82acaec63)
+
+
+### Funcionalidades
+
+Criar um pedido (POST /pedidos)
+Listar todos os pedidos (GET /pedidos)
+Pagar um pedido (POST /pedidos/id/pagar)
+Enviar um pedido(POST /pedidos/id/enviar)
+Cancelar um pedido (POST /pedidos/id/cancelar)
+
+
+
 
 
 
