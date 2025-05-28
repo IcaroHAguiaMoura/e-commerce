@@ -1,0 +1,548 @@
+2025-05-27T00:30:57.973-03:00  INFO 868 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : Starting EcommerceApplication using Java 21.0.3 with PID 868 (C:\Users\srgood\Documents\ecommerce\target\classes started by srgood in C:\Users\srgood\Documents\ecommerce)
+2025-05-27T00:30:57.978-03:00  INFO 868 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : The following 1 profile is active: "test"
+2025-05-27T00:30:58.045-03:00  INFO 868 --- [ecommerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27T00:30:58.045-03:00  INFO 868 --- [ecommerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27T00:30:58.718-03:00  INFO 868 --- [ecommerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T00:30:58.767-03:00  INFO 868 --- [ecommerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2025-05-27T00:31:01.314-03:00  INFO 868 --- [ecommerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T00:31:01.335-03:00  INFO 868 --- [ecommerce] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T00:31:01.336-03:00  INFO 868 --- [ecommerce] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-27T00:31:01.396-03:00  INFO 868 --- [ecommerce] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T00:31:01.397-03:00  INFO 868 --- [ecommerce] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3351 ms
+2025-05-27T00:31:01.734-03:00  INFO 868 --- [ecommerce] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T00:31:01.866-03:00  INFO 868 --- [ecommerce] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-27T00:31:01.930-03:00  INFO 868 --- [ecommerce] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T00:31:02.054-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@5a252687
+2025-05-27T00:31:02.054-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@5a252687
+2025-05-27T00:31:02.054-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@5a252687
+2025-05-27T00:31:02.054-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@6e1ad88d
+2025-05-27T00:31:02.054-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@6e1ad88d
+2025-05-27T00:31:02.055-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@68eaf6ff
+2025-05-27T00:31:02.055-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@68eaf6ff
+2025-05-27T00:31:02.056-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@7f063ce9
+2025-05-27T00:31:02.056-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@7f063ce9
+2025-05-27T00:31:02.056-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@c642c90
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@c642c90
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@c642c90
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@34825321
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@34825321
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@34825321
+2025-05-27T00:31:02.057-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@be01640
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@be01640
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@45cf92a1
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@68623624
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@68623624
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@4edf6b52
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@450626df
+2025-05-27T00:31:02.058-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@7c65fe44
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@7c65fe44
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@7c65fe44
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@54f24fa
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@54f24fa
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@54f24fa
+2025-05-27T00:31:02.059-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@307f5afa
+2025-05-27T00:31:02.060-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@307f5afa
+2025-05-27T00:31:02.060-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@307f5afa
+2025-05-27T00:31:02.060-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@44bba2f4
+2025-05-27T00:31:02.060-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@44bba2f4
+2025-05-27T00:31:02.061-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@44bba2f4
+2025-05-27T00:31:02.061-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@17ffe3f9
+2025-05-27T00:31:02.061-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@17ffe3f9
+2025-05-27T00:31:02.061-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@17ffe3f9
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@6beb6d08
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@6beb6d08
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@21095205
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@21095205
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@383ce8d2
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@383ce8d2
+2025-05-27T00:31:02.062-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@383ce8d2
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@50b42407
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@60878034
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@60878034
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@bf57f5b
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@54507c8f
+2025-05-27T00:31:02.063-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@54507c8f
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@54507c8f
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@2535ee1e
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@796f4cac
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@59c0fb7d
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@e2340ce
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@e2340ce
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@4ec1a0a
+2025-05-27T00:31:02.064-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@4ec1a0a
+2025-05-27T00:31:02.065-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@7652c17
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@59202495
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@4d113a4f
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@29c945ad
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@7e2c117
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@5fbe59f2
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@1bb9c308
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@1bb9c308
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@78be09ff
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@78be09ff
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@69c58586
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@69c58586
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@44993085
+2025-05-27T00:31:02.066-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@44993085
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@11ed1a9d
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@11ed1a9d
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@191408ae
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@5cb847bf
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@512859b5
+2025-05-27T00:31:02.067-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@512859b5
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@28e898ff
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@1180a434
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@f1b8c04
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@1ced89a3
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@1ced89a3
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@702ed5a1
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@641b7e94
+2025-05-27T00:31:02.068-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@3733b5bf
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@3733b5bf
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@4763926b
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@4763926b
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@41e6c4fb
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@41e6c4fb
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@41e6c4fb
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@7e36fd8d
+2025-05-27T00:31:02.069-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@7e36fd8d
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@7e36fd8d
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@548221b9
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@f291188
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@789fcd8a
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@789fcd8a
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@318c8d81
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@318c8d81
+2025-05-27T00:31:02.070-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@318c8d81
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@7446fde0
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@33a417b1
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@35d16fd2
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@35d16fd2
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@60e40c6c
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@60e40c6c
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@60e40c6c
+2025-05-27T00:31:02.071-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@238e446d
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@238e446d
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@3004c632
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@3004c632
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@e15801f
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@e15801f
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@4e526add
+2025-05-27T00:31:02.072-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@4e526add
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@1faef256
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@1faef256
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@90d82c7
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@2bbaee81
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@76e37da9
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@1e371d61
+2025-05-27T00:31:02.073-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@7b49bfda
+2025-05-27T00:31:02.083-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@29e32c85
+2025-05-27T00:31:02.084-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@29e32c85
+2025-05-27T00:31:02.086-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@4038930f
+2025-05-27T00:31:02.086-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@55a78589
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@6d22f330
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@183b53bf
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@1c9f0b5c
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@75fd5e8b
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@f3c9877
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@4dd89484
+2025-05-27T00:31:02.087-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@2979b388
+2025-05-27T00:31:02.382-03:00  INFO 868 --- [ecommerce] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T00:31:02.423-03:00  INFO 868 --- [ecommerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T00:31:02.715-03:00  INFO 868 --- [ecommerce] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-05-27T00:31:02.717-03:00  INFO 868 --- [ecommerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T00:31:02.777-03:00  INFO 868 --- [ecommerce] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T00:31:02.786-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-05-27T00:31:02.787-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-05-27T00:31:02.787-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-05-27T00:31:02.789-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-05-27T00:31:02.790-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(TimestampUtcDescriptor) replaced previous registration(TimestampUtcDescriptor)
+2025-05-27T00:31:02.793-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:31:02.793-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:31:02.793-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:31:02.797-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2110821] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4ea26e29]
+2025-05-27T00:31:03.841-03:00  INFO 868 --- [ecommerce] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T00:31:03.842-03:00 DEBUG 868 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2110821] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@56a0ed9e]
+2025-05-27T00:31:03.945-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    create table pedido (
+        id bigint generated by default as identity,
+        status enum ('AGUARDANDO_PAGAMENTO','CANCELADO','ENVIADO','PAGO'),
+        valor numeric(38,2),
+        valor_frete numeric(38,2),
+        primary key (id)
+    )
+2025-05-27T00:31:03.984-03:00 TRACE 868 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@56a0ed9e] for TypeConfiguration
+2025-05-27T00:31:03.985-03:00  INFO 868 --- [ecommerce] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T00:31:04.530-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, valor, valor_frete, id) 
+    values
+        (?, ?, ?, default)
+2025-05-27T00:31:04.591-03:00 DEBUG 868 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, valor, valor_frete, id) 
+    values
+        (?, ?, ?, default)
+2025-05-27T00:31:04.688-03:00  WARN 868 --- [ecommerce] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-27T00:31:05.131-03:00  INFO 868 --- [ecommerce] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-05-27T00:31:05.226-03:00  INFO 868 --- [ecommerce] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-27T00:31:05.298-03:00  INFO 868 --- [ecommerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-27T00:31:05.309-03:00  INFO 868 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : Started EcommerceApplication in 8.035 seconds (process running for 8.764)
+2025-05-27T00:31:07.725-03:00  INFO 868 --- [ecommerce] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T00:31:07.725-03:00  INFO 868 --- [ecommerce] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T00:31:07.727-03:00  INFO 868 --- [ecommerce] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-27T00:31:07.913-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:31:19.421-03:00  WARN 868 --- [ecommerce] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-05-27T00:31:23.180-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0 
+    where
+        p1_0.id=?
+2025-05-27T00:31:23.188-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    update
+        pedido 
+    set
+        status=?,
+        valor=?,
+        valor_frete=? 
+    where
+        id=?
+2025-05-27T00:31:29.970-03:00  WARN 868 --- [ecommerce] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-05-27T00:31:32.389-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:31:44.625-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:31:47.457-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:31:51.137-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, valor, valor_frete, id) 
+    values
+        (?, ?, ?, default)
+2025-05-27T00:31:53.882-03:00 DEBUG 868 --- [ecommerce] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:36:13.448-03:00  INFO 868 --- [ecommerce] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T00:36:13.451-03:00  INFO 868 --- [ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T00:36:13.453-03:00  INFO 868 --- [ecommerce] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T00:36:13.454-03:00 TRACE 868 --- [ecommerce] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@56a0ed9e] for TypeConfiguration
+2025-05-27T00:36:13.454-03:00 DEBUG 868 --- [ecommerce] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@f42650] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@56a0ed9e]
+2025-05-27T00:36:13.457-03:00  WARN 868 --- [ecommerce] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-05-27T00:36:13.458-03:00  INFO 868 --- [ecommerce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T00:36:13.459-03:00  INFO 868 --- [ecommerce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-05-27T00:47:11.097-03:00  INFO 12604 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : Starting EcommerceApplication using Java 21.0.3 with PID 12604 (C:\Users\srgood\Documents\ecommerce\target\classes started by srgood in C:\Users\srgood\Documents\ecommerce)
+2025-05-27T00:47:11.101-03:00  INFO 12604 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : The following 1 profile is active: "test"
+2025-05-27T00:47:11.145-03:00  INFO 12604 --- [ecommerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-27T00:47:11.145-03:00  INFO 12604 --- [ecommerce] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-27T00:47:11.533-03:00  INFO 12604 --- [ecommerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T00:47:11.568-03:00  INFO 12604 --- [ecommerce] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-05-27T00:47:12.126-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-27T00:47:12.138-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-27T00:47:12.138-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-27T00:47:12.172-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-27T00:47:12.173-03:00  INFO 12604 --- [ecommerce] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1028 ms
+2025-05-27T00:47:12.295-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T00:47:12.336-03:00  INFO 12604 --- [ecommerce] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-05-27T00:47:12.371-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@4ecc3248
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BasicTypeReference@4ecc3248
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BasicTypeReference@4ecc3248
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.BasicTypeReference@7c00df82
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.NumericBooleanConverter -> org.hibernate.type.BasicTypeReference@7c00df82
+2025-05-27T00:47:12.429-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.BasicTypeReference@1550c59
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.TrueFalseConverter -> org.hibernate.type.BasicTypeReference@1550c59
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.BasicTypeReference@7c6e9056
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.YesNoConverter -> org.hibernate.type.BasicTypeReference@7c6e9056
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@531fb3e1
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.BasicTypeReference@531fb3e1
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.BasicTypeReference@531fb3e1
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BasicTypeReference@29998acf
+2025-05-27T00:47:12.430-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BasicTypeReference@29998acf
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BasicTypeReference@29998acf
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary_wrapper -> org.hibernate.type.BasicTypeReference@77c61
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.BasicTypeReference@77c61
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.BasicTypeReference@8e3a017
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BasicTypeReference@26cd8a51
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BasicTypeReference@26cd8a51
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.BasicTypeReference@43e7b3b5
+2025-05-27T00:47:12.431-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob_wrapper -> org.hibernate.type.BasicTypeReference@78b83bdc
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@6dcecfc4
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.BasicTypeReference@6dcecfc4
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.BasicTypeReference@6dcecfc4
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.BasicTypeReference@271b4f2e
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.BasicTypeReference@271b4f2e
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.BasicTypeReference@271b4f2e
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@599f3a63
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.BasicTypeReference@599f3a63
+2025-05-27T00:47:12.432-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.BasicTypeReference@599f3a63
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@60408c57
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.BasicTypeReference@60408c57
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.BasicTypeReference@60408c57
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@7b6bcf74
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.BasicTypeReference@7b6bcf74
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.BasicTypeReference@7b6bcf74
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BasicTypeReference@6749d08
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BasicTypeReference@6749d08
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BasicTypeReference@2698f387
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BasicTypeReference@2698f387
+2025-05-27T00:47:12.433-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.BasicTypeReference@425ef137
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.BasicTypeReference@425ef137
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.BasicTypeReference@425ef137
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character_nchar -> org.hibernate.type.BasicTypeReference@676b8667
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.BasicTypeReference@4555cb5f
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.BasicTypeReference@4555cb5f
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.BasicTypeReference@24301cb9
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.BasicTypeReference@11529641
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.BasicTypeReference@11529641
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.BasicTypeReference@11529641
+2025-05-27T00:47:12.434-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.BasicTypeReference@2a3172b2
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.BasicTypeReference@41554b98
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.BasicTypeReference@65a442df
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.BasicTypeReference@60c130b4
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.BasicTypeReference@60c130b4
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.BasicTypeReference@41c46afc
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.BasicTypeReference@41c46afc
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.BasicTypeReference@2a26e0d7
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_char_array -> org.hibernate.type.BasicTypeReference@6dd3fdf6
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob_character_array -> org.hibernate.type.BasicTypeReference@47e3468
+2025-05-27T00:47:12.435-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.BasicTypeReference@668f2d91
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_character_array -> org.hibernate.type.BasicTypeReference@7b3259cf
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob_char_array -> org.hibernate.type.BasicTypeReference@97c3712
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.BasicTypeReference@7c548f21
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.BasicTypeReference@7c548f21
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.BasicTypeReference@63a8c69f
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.BasicTypeReference@63a8c69f
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.BasicTypeReference@a3d1704
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.BasicTypeReference@a3d1704
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.BasicTypeReference@629175f6
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.BasicTypeReference@629175f6
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.BasicTypeReference@3a64d302
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.BasicTypeReference@3a64d302
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@1fdd66ef
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@7dbac727
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.BasicTypeReference@146d33a3
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.BasicTypeReference@146d33a3
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeUtc -> org.hibernate.type.BasicTypeReference@80d1eef
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithTimezone -> org.hibernate.type.BasicTypeReference@7c93eb1f
+2025-05-27T00:47:12.436-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@57bb9855
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.BasicTypeReference@2ab6592a
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.BasicTypeReference@2ab6592a
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithTimezone -> org.hibernate.type.BasicTypeReference@4a2cc0f5
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTimeWithoutTimezone -> org.hibernate.type.BasicTypeReference@290411bc
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.BasicTypeReference@22764df9
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.BasicTypeReference@22764df9
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.BasicTypeReference@3a912f94
+2025-05-27T00:47:12.437-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.BasicTypeReference@3a912f94
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.BasicTypeReference@16966b5b
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.BasicTypeReference@16966b5b
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.BasicTypeReference@16966b5b
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.BasicTypeReference@1f9611c4
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.BasicTypeReference@1f9611c4
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.BasicTypeReference@1f9611c4
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.BasicTypeReference@f9f9e4a
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.BasicTypeReference@3cc1eda2
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration instant -> org.hibernate.type.BasicTypeReference@19a895d2
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.BasicTypeReference@19a895d2
+2025-05-27T00:47:12.438-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid -> org.hibernate.type.BasicTypeReference@369faf12
+2025-05-27T00:47:12.439-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.BasicTypeReference@369faf12
+2025-05-27T00:47:12.439-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.BasicTypeReference@369faf12
+2025-05-27T00:47:12.439-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.BasicTypeReference@45811a45
+2025-05-27T00:47:12.439-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.BasicTypeReference@761e53aa
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.BasicTypeReference@2bc54ebe
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.BasicTypeReference@2bc54ebe
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.BasicTypeReference@606993eb
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Currency -> org.hibernate.type.BasicTypeReference@606993eb
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.BasicTypeReference@606993eb
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.BasicTypeReference@2df7fe91
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.BasicTypeReference@2df7fe91
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.BasicTypeReference@29706b86
+2025-05-27T00:47:12.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.io.Serializable -> org.hibernate.type.BasicTypeReference@29706b86
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.BasicTypeReference@28c170a8
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.BasicTypeReference@28c170a8
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZoneOffset -> org.hibernate.type.BasicTypeReference@41b5890
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZoneOffset -> org.hibernate.type.BasicTypeReference@41b5890
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.BasicTypeReference@160a3df4
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.BasicTypeReference@160a3df4
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration vector -> org.hibernate.type.BasicTypeReference@3c0c58e8
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float_vector -> org.hibernate.type.BasicTypeReference@1feb3bf1
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double_vector -> org.hibernate.type.BasicTypeReference@416a3f44
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte_vector -> org.hibernate.type.BasicTypeReference@6484f00
+2025-05-27T00:47:12.441-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.BasicTypeReference@585d8c39
+2025-05-27T00:47:12.445-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.JavaObjectType@165de724
+2025-05-27T00:47:12.445-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.JavaObjectType@165de724
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration null -> org.hibernate.type.NullType@4d16213b
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.BasicTypeReference@26060f1d
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.BasicTypeReference@5e1ef26e
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.BasicTypeReference@1e88fbef
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.BasicTypeReference@62eb1efc
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.BasicTypeReference@74838b5b
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_time -> org.hibernate.type.BasicTypeReference@5da78a27
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.BasicTypeReference@4a945ff
+2025-05-27T00:47:12.446-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.BasicTypeReference@3e8fb768
+2025-05-27T00:47:12.612-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T00:47:12.638-03:00  INFO 12604 --- [ecommerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T00:47:12.781-03:00  INFO 12604 --- [ecommerce] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-05-27T00:47:12.783-03:00  INFO 12604 --- [ecommerce] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T00:47:12.829-03:00  INFO 12604 --- [ecommerce] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T00:47:12.839-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NCharTypeDescriptor) replaced previous registration(CharTypeDescriptor)
+2025-05-27T00:47:12.839-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NVarcharTypeDescriptor) replaced previous registration(VarcharTypeDescriptor)
+2025-05-27T00:47:12.840-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(LongNVarcharTypeDescriptor) replaced previous registration(LongVarcharTypeDescriptor)
+2025-05-27T00:47:12.842-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(NClobTypeDescriptor(DEFAULT)) replaced previous registration(ClobTypeDescriptor(DEFAULT))
+2025-05-27T00:47:12.843-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.t.d.jdbc.spi.JdbcTypeRegistry        : addDescriptor(TimestampUtcDescriptor) replaced previous registration(TimestampUtcDescriptor)
+2025-05-27T00:47:12.847-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration org.hibernate.type.DurationType -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:47:12.847-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:47:12.847-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> basicType@1(java.time.Duration,3015)
+2025-05-27T00:47:12.850-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@12db419b] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6012594b]
+2025-05-27T00:47:13.402-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T00:47:13.402-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@12db419b] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@6bd5ac54]
+2025-05-27T00:47:13.440-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    create table pedido (
+        id bigint generated by default as identity,
+        status enum ('AGUARDANDO_PAGAMENTO','CANCELADO','ENVIADO','PAGO'),
+        tipo_frete varchar(255),
+        valor numeric(38,2),
+        valor_frete numeric(38,2),
+        primary key (id)
+    )
+2025-05-27T00:47:13.447-03:00 TRACE 12604 --- [ecommerce] [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6bd5ac54] for TypeConfiguration
+2025-05-27T00:47:13.447-03:00  INFO 12604 --- [ecommerce] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T00:47:13.668-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, tipo_frete, valor, valor_frete, id) 
+    values
+        (?, ?, ?, ?, default)
+2025-05-27T00:47:13.707-03:00 DEBUG 12604 --- [ecommerce] [restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, tipo_frete, valor, valor_frete, id) 
+    values
+        (?, ?, ?, ?, default)
+2025-05-27T00:47:13.752-03:00  WARN 12604 --- [ecommerce] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-27T00:47:13.968-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-05-27T00:47:14.017-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-27T00:47:14.043-03:00  INFO 12604 --- [ecommerce] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-27T00:47:14.050-03:00  INFO 12604 --- [ecommerce] [restartedMain] c.curso.ecommerce.EcommerceApplication   : Started EcommerceApplication in 3.343 seconds (process running for 3.704)
+2025-05-27T00:47:22.822-03:00  INFO 12604 --- [ecommerce] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-27T00:47:22.822-03:00  INFO 12604 --- [ecommerce] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-27T00:47:22.823-03:00  INFO 12604 --- [ecommerce] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-27T00:47:22.922-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.tipo_frete,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:47:28.254-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        pedido
+        (status, tipo_frete, valor, valor_frete, id) 
+    values
+        (?, ?, ?, ?, default)
+2025-05-27T00:47:30.548-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.tipo_frete,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:47:48.636-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.tipo_frete,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0 
+    where
+        p1_0.id=?
+2025-05-27T00:47:48.643-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    update
+        pedido 
+    set
+        status=?,
+        tipo_frete=?,
+        valor=?,
+        valor_frete=? 
+    where
+        id=?
+2025-05-27T00:47:52.871-03:00 DEBUG 12604 --- [ecommerce] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        p1_0.id,
+        p1_0.status,
+        p1_0.tipo_frete,
+        p1_0.valor,
+        p1_0.valor_frete 
+    from
+        pedido p1_0
+2025-05-27T00:47:56.318-03:00  INFO 12604 --- [ecommerce] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-27T00:47:56.321-03:00  INFO 12604 --- [ecommerce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-27T00:47:56.324-03:00  INFO 12604 --- [ecommerce] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T00:47:56.324-03:00 TRACE 12604 --- [ecommerce] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@6bd5ac54] for TypeConfiguration
+2025-05-27T00:47:56.324-03:00 DEBUG 12604 --- [ecommerce] [SpringApplicationShutdownHook] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4d236432] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@6bd5ac54]
+2025-05-27T00:47:56.327-03:00  WARN 12604 --- [ecommerce] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-05-27T00:47:56.327-03:00  INFO 12604 --- [ecommerce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-27T00:47:56.329-03:00  INFO 12604 --- [ecommerce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
