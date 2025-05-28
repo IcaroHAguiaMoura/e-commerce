@@ -40,18 +40,29 @@ Pedidos aguardando pagamento
 
 ![image](https://github.com/user-attachments/assets/ab3dd72b-5c70-4752-87b4-cf11dbb342f6)
 
-Pedido 1 pago
+### Pedido 1 pago
 
 ![image](https://github.com/user-attachments/assets/748aa9fa-b321-4501-90dc-ad86807d9e7b)
 
-Pedido 1 enviado
+### Pedido 1 enviado
 
 ![image](https://github.com/user-attachments/assets/084ea41a-86cf-4f07-ae51-b59048a663eb)
 
-Pedido 2 não pode ser enviado pois não foi pago
+### Pedido 2 não pode ser enviado pois não foi pago
 
 ![image](https://github.com/user-attachments/assets/ad972308-b50f-4903-b95a-d0e44efffb74)
 
+## Tecnologias
+
+#### Java 17+
+#### Spring Boot
+#### H2 Database
+#### Maven
+#### Postman
+
+## Autores
+
+Guilherme Lucera,Icaro H.Aguia Moura,Mateus Duran.
 
 
 
