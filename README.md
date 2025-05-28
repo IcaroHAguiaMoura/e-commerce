@@ -16,3 +16,6 @@ Utilizamos ele porque cada tipo de frete(ex: aéreo, terrestre) possui forma dif
 Ao usar o **Strategy**, pode definir essa estratégia em classes separadas e trocar a lógica  sem
 precisar alterar a classe principal(**Pedido**).
 
+![image](https://github.com/user-attachments/assets/386d9754-aa19-4ede-99c0-2b80c626e500)
+
+
