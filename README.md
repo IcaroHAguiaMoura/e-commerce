@@ -29,11 +29,29 @@ Evitando mutios if-else ou switch no codigo.
 
 ### Funcionalidades
 
-Criar um pedido (POST /pedidos)
-Listar todos os pedidos (GET /pedidos)
-Pagar um pedido (POST /pedidos/id/pagar)
-Enviar um pedido(POST /pedidos/id/enviar)
-Cancelar um pedido (POST /pedidos/id/cancelar)
+#### Criar um pedido (POST /pedidos)
+#### Listar todos os pedidos (GET /pedidos)
+#### Pagar um pedido (POST /pedidos/id/pagar)
+#### Enviar um pedido(POST /pedidos/id/enviar)
+#### Cancelar um pedido (POST /pedidos/id/cancelar)
+
+## Postman
+Pedidos aguardando pagamento
+
+![image](https://github.com/user-attachments/assets/ab3dd72b-5c70-4752-87b4-cf11dbb342f6)
+
+Pedido 1 pago
+
+![image](https://github.com/user-attachments/assets/748aa9fa-b321-4501-90dc-ad86807d9e7b)
+
+Pedido 1 enviado
+
+![image](https://github.com/user-attachments/assets/084ea41a-86cf-4f07-ae51-b59048a663eb)
+
+Pedido 2 não pode ser enviado pois não foi pago
+
+![image](https://github.com/user-attachments/assets/ad972308-b50f-4903-b95a-d0e44efffb74)
+
 
 
 
